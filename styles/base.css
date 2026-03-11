@@ -1,7 +1,9 @@
 body {
-font-family: Arial, sans-serif;
+font-family: 'Roboto', Arial, sans-serif;
 margin:0;
+background:#f5f7fa;
 }
+
 
 header {
 background:#1b4965;
@@ -12,13 +14,17 @@ padding:1rem;
 
 #course-title{
 display:block;
-font-size:1.5rem;
+font-size:1.8rem;
+font-family:'Montserrat', sans-serif;
+font-weight:bold;
+margin-bottom:10px;
 }
+
 
 nav{
 display:flex;
 justify-content:center;
-gap:20px;
+gap:30px;
 background:#5fa8d3;
 padding:1rem;
 }
@@ -27,42 +33,72 @@ nav a{
 color:white;
 text-decoration:none;
 font-weight:bold;
+padding:8px 15px;
+border-radius:6px;
+transition:0.3s;
 }
 
 nav a:hover{
-color:yellow;
+background:#1b4965;
+color:white;
+transform:scale(1.05);
 }
+
 
 main{
 max-width:900px;
 margin:0 auto;
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:20px;
+gap:25px;
 padding:1rem;
 }
+
+h1{
+grid-column:1/3;
+text-align:center;
+font-family:'Montserrat', sans-serif;
+color:#1b4965;
+}
+
 
 .card{
 border:1px solid #ddd;
 padding:1rem;
-border-radius:10px;
+border-radius:12px;
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
 }
+
+.card h2{
+text-align:center;
+background:#1b4965;
+color:white;
+padding:10px;
+border-radius:8px;
+font-family:'Montserrat', sans-serif;
+}
+
+
+.card-content{
+display:flex;
+align-items:center;
+gap:20px;
+margin-top:15px;
+}
+
+.card img{
+width:140px;
+height:auto;
+border-radius:10px;
+border:3px solid #eaeaea;
+}
+
 
 footer{
 text-align:center;
 background:#1b4965;
 color:white;
 padding:1rem;
-}
-
-.card-content{
-display:flex;
-align-items:center;
-gap:20px;
-}
-
-.card img{
-width:150px;
-height:auto;
-border-radius:8px;
+margin-top:20px;
 }

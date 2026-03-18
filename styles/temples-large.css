@@ -1,0 +1,30 @@
+@media screen and (min-width:640px){
+
+#menu{
+display:none;
+}
+
+header{
+flex-direction:row;
+}
+
+.navigation{
+flex-direction:row;
+justify-content:flex-end;
+gap:25px;
+width:auto;
+}
+
+.navigation a{
+display:block;
+}
+
+.container{
+grid-template-columns:1fr 1fr 1fr;
+}
+
+main{
+max-width:1000px;
+}
+
+}

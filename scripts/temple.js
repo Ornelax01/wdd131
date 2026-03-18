@@ -3,15 +3,15 @@ const year = new Date().getFullYear();
 document.getElementById("currentyear").textContent = year;
 
 document.getElementById("lastModified").textContent =
-document.lastModified;
+"Last Modified: " + document.lastModified;
 
-const menuButton = document.querySelector('#menu');
+const menuButton = document.querySelector("#menu");
 
-const navigation = document.querySelector('.navigation');
+const navigation = document.querySelector(".navigation");
 
-menuButton.addEventListener('click', () => {
+menuButton.addEventListener("click", () => {
 
-navigation.classList.toggle('open');
+navigation.classList.toggle("open");
 
 menuButton.textContent =
 menuButton.textContent === "☰" ? "X" : "☰";

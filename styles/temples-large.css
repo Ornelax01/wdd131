@@ -4,14 +4,10 @@
 display:none;
 }
 
-header{
-flex-direction:row;
-}
-
 .navigation{
 flex-direction:row;
 justify-content:flex-end;
-gap:25px;
+gap:30px;
 width:auto;
 }
 
@@ -20,7 +16,7 @@ display:block;
 }
 
 .container{
-grid-template-columns:1fr 1fr 1fr;
+grid-template-columns:repeat(3,1fr);
 }
 
 main{

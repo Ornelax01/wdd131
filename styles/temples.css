@@ -4,7 +4,6 @@ margin:0;
 background:#f4f6f8;
 }
 
-/* Header */
 
 header{
 background:#1b4965;
@@ -20,7 +19,6 @@ margin:0;
 font-family:'Montserrat', sans-serif;
 }
 
-/* Hamburger */
 
 #menu{
 font-size:2rem;
@@ -30,15 +28,17 @@ color:white;
 cursor:pointer;
 }
 
-/* Navigation */
 
-.navigation{
+nav{
 display:flex;
 flex-direction:column;
+}
+
+.navigation{
 width:100%;
 }
 
-.navigation a{
+.nav a{
 display:none;
 color:white;
 text-decoration:none;
@@ -47,7 +47,7 @@ font-weight:bold;
 text-align:center;
 }
 
-.navigation a:hover{
+.nav a:hover{
 background:#5fa8d3;
 }
 
@@ -55,7 +55,6 @@ background:#5fa8d3;
 display:block;
 }
 
-/* Main */
 
 main{
 max-width:900px;
@@ -69,7 +68,6 @@ font-family:'Montserrat', sans-serif;
 color:#1b4965;
 }
 
-/* Grid */
 
 .container{
 display:grid;
@@ -98,7 +96,6 @@ color:#1b4965;
 font-weight:bold;
 }
 
-/* Footer */
 
 footer{
 background:#1b4965;

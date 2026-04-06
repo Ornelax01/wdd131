@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Product Review | Carlos Ornelas</title>
+
+<meta name="description"
+content="Product review form WDD131 assignment">
+
+<meta name="author"
+content="Carlos Ornelas">
+
+<link rel="stylesheet"
+href="styles/form.css">
+
+<script src="scripts/form.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Product Review Form</h1>
+
+</header>
+
+<main>
+
+<form method="get"
+action="review.html">
+
+<!-- Product -->
+
+<label for="product">
+Product Name *
+</label>
+
+<select id="product"
+name="product"
+required>
+
+<option value=""
+disabled
+selected>
+
+Select a Product ...
+
+</option>
+
+</select>
+
+<!-- Rating -->
+
+<label>
+Overall Rating *
+</label>
+
+<div class="rating">
+
+<label>
+<input type="radio"
+id="r1"
+name="rating"
+value="1"
+required>
+
+☆
+</label>
+
+<label>
+<input type="radio"
+id="r2"
+name="rating"
+value="2">
+
+☆☆
+</label>
+
+<label>
+<input type="radio"
+id="r3"
+name="rating"
+value="3">
+
+☆☆☆
+</label>
+
+<label>
+<input type="radio"
+id="r4"
+name="rating"
+value="4">
+
+☆☆☆☆
+</label>
+
+<label>
+<input type="radio"
+id="r5"
+name="rating"
+value="5">
+
+☆☆☆☆☆
+</label>
+
+</div>
+
+
+<label for="install">
+
+Date of Installation *
+
+</label>
+
+<input type="date"
+id="install"
+name="install"
+required>
+
+
+<label>
+Useful Features
+</label>
+
+<label>
+
+<input type="checkbox"
+id="design"
+name="features"
+value="design">
+
+Design
+
+</label>
+
+<label>
+
+<input type="checkbox"
+id="performance"
+name="features"
+value="performance">
+
+Performance
+
+</label>
+
+<label>
+
+<input type="checkbox"
+id="durability"
+name="features"
+value="durability">
+
+Durability
+
+</label>
+
+
+<label for="review">
+
+Written Review
+
+</label>
+
+<textarea
+id="review"
+name="review"
+rows="4">
+
+</textarea>
+
+
+<label for="username">
+
+User Name
+
+</label>
+
+<input type="text"
+id="username"
+name="username">
+
+
+<input type="submit"
+value="Submit Review">
+
+</form>
+
+</main>
+
+<footer>
+
+<p>
+© <span id="year"></span>
+Carlos Ornelas
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+
+</html>

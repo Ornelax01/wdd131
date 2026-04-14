@@ -43,7 +43,6 @@ const playersValue = playersFilter.value;
 
 let filtered = games;
 
-// Filter by difficulty
 if(difficultyValue !== "all"){
 
 filtered = filtered.filter(game =>
@@ -52,7 +51,6 @@ game.difficulty === difficultyValue
 
 }
 
-// Filter by players
 if(playersValue !== "all"){
 
 filtered = filtered.filter(game =>

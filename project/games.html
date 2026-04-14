@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Games | Play Different</title>
+
+<meta name="description" content="Browse and filter modern board games by difficulty, players, and features.">
+
+<meta name="author" content="Carlos Ornelas">
+
+<link rel="stylesheet" href="styles/main.css">
+
+<script type="module" src="scripts/games.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎲 Play Different</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="games.html" class="active">Games</a>
+<a href="favorites.html">Favorites</a>
+<a href="about.html">About</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<h2 class="section-title">All Games</h2>
+
+<p class="intro">
+Browse all available board games and use the filters to find games based on difficulty and number of players.
+</p>
+
+<!-- FILTERS -->
+
+<section class="filters">
+
+<label for="difficulty">Filter by Difficulty:</label>
+
+<select id="difficulty" name="difficulty">
+
+<option value="all">All</option>
+<option value="Easy">Easy</option>
+<option value="Medium">Medium</option>
+
+</select>
+
+<label for="players">Filter by Players:</label>
+
+<select id="players" name="players">
+
+<option value="all">All</option>
+<option value="2-4">2–4 Players</option>
+<option value="2-5">2–5 Players</option>
+
+</select>
+
+</section>
+
+<!-- GAMES -->
+
+<div class="games" id="gamesContainer"></div>
+
+</main>
+
+<footer>
+
+<p>
+© <span id="year"></span> Carlos Ornelas
+</p>
+
+<p>
+<a href="references.html">References</a>
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+
+</html>

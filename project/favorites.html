@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Favorites | Play Different</title>
+
+<meta name="description" content="View your favorite board games saved from Play Different.">
+
+<meta name="author" content="Carlos Ornelas">
+
+<link rel="stylesheet" href="styles/main.css">
+
+<script src="scripts/favorites.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎲 Play Different</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="games.html">Games</a>
+<a href="favorites.html" class="active">Favorites</a>
+<a href="about.html">About</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<section>
+
+<h2 class="section-title">Your Favorites</h2>
+
+<p class="intro">
+Here you can view and manage the board games you have saved as favorites.
+</p>
+
+<p id="emptyMessage"></p>
+
+<div id="favoritesContainer" class="games" aria-live="polite">
+<p>Loading favorites...</p>
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+© <span id="year"></span> Carlos Ornelas
+</p>
+
+<p>
+<a href="references.html">References</a>
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+
+</html>
